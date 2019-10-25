@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+                android:padding="16dp"
+                tools:context=".MainActivity"
+              android:background="#00BCD4" android:id="@+id/User">
+
+    <TextView.
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penilaian Mahasiswa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:autoText="false"
+            android:textSize="36sp"
+            android:textColor="#E91E63"
+            android:background="#00BCD4"
+            android:id="@+id/judul"/>
+
+
+    <EditText
+            android:id="@+id/NIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIM"
+            android:textSize="24sp"
+            android:textColor="#00BCD4"
+            android:text="NIM"
+            android:background="#FFEB3B"
+            android:phoneNumber="true"/>
+    <EditText
+            android:id="@+id/Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:textSize="24sp"
+            android:textColor="#00BCD4"
+            android:text="Nama"
+            android:background="#FFEB3B"/>
+
+    <EditText
+            android:id="@+id/Nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:textSize="24sp"
+            android:textColor="#00BCD4"
+            android:text="Nilai"
+            android:background="#FFEB3B"/>
+    <Button
+            android:id="@+id/send"
+            android:text="Proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:textSize="36sp"/>
+            android:onClick="send"
+
+</RelativeLayout>
